@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Vmetry Suite" duration-ms="14863" started-at="2018-01-07T12:59:06Z" finished-at="2018-01-07T12:59:21Z">
+    <groups>
+    </groups>
+    <test name="Booking" duration-ms="14863" started-at="2018-01-07T12:59:06Z" finished-at="2018-01-07T12:59:21Z">
+      <class name="com.vmetry.testcases.Booking">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.vmetry.testcases.Booking@396e2f39]" name="setUp" is-config="true" duration-ms="40" started-at="2018-01-07T18:29:06Z" finished-at="2018-01-07T18:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47605f2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.vmetry.testcases.Booking@396e2f39]" name="doBooking" duration-ms="9990" started-at="2018-01-07T18:29:07Z" data-provider="Booking" finished-at="2018-01-07T18:29:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XXX YYY ZZZ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8877996655]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ADYAR]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALWARPET]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sedan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBooking -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vmetry.testcases.Booking@396e2f39]" name="tearDown" is-config="true" duration-ms="137" started-at="2018-01-07T18:29:21Z" finished-at="2018-01-07T18:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vmetry.testcases.Booking -->
+    </test> <!-- Booking -->
+  </suite> <!-- Vmetry Suite -->
+</testng-results>
